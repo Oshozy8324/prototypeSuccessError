@@ -1,0 +1,147 @@
+/* body p{
+    margin: 0%;
+    padding: 0%;
+
+}
+.nav-bar{
+background: #F9F2F7;
+padding-top: 28px;
+padding-bottom: 23px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+div.logo{
+   
+width: 133px;
+background: url(.png);
+}
+.but{
+    background-color: #5E194E;
+    border-radius: 5px;
+    padding: 7px 26px;
+    color: white;
+    border: none;
+}
+.nav-links{
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    gap: 58px;
+    align-items: center;
+
+}
+.nav-links a{
+    text-decoration: none;
+    color: #303030;
+} */
+.actual-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+width: 710px;
+padding-top: 34px;
+padding-bottom: 88.17px;
+margin-bottom: 166px;
+margin-top: 92px;
+
+background: #F9F2F7;
+border-radius: 15px;
+}
+.actual-body h2{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 145.5%;
+
+color: #5E194E;
+}
+.actual-body img{
+    width: 240px;
+    margin-bottom: 30px;
+}
+img{
+    width: 100%;
+    object-fit: contain;
+}
+.actual-body p{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 145.5%;
+margin-bottom: 30px;
+color: #303030;
+}
+
+.try{
+    margin-bottom: 30px;
+    background: #5E194E;
+    border-radius: 5px;
+    color: white;
+    width: 430px;
+    height: 60.83px;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+cursor: pointer;
+color: #FFFFFF;
+}
+.create{
+    width: 430px;
+height: 60.83px;
+
+border: 1px solid #CD42AC;
+border-radius: 5px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+cursor: pointer;
+
+color: #5E194E;
+}
+
+@media screen and (max-width: 800px){
+    .actual-body{
+        width: 80vw;
+    }
+}
+@media screen and (max-width: 750px){
+    .actual-body img{
+        width: 150px;
+    }
+    body{
+        background-color: red;
+    }
+    .actual-body p{
+        text-align: center;
+    }
+    .actual-body .create,.try{
+        width: 40vw;
+        font-weight: 400;
+        font-size: 16px;
+        height: 42px
+    }
+    .actual-body p{
+        width: 35vw;
+    }
+
+
+
+    /* .actual-body button{
+        padding: 10px 20px ;
+        font-weight: 400;
+        font-size: 16px;
+    } */
+
+}
