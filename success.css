@@ -42,9 +42,9 @@ background: url(.png);
     flex-direction: column;
     align-items: center;
 width: 710px;
-padding-top: 114px;
+padding-top: 34px;
 padding-bottom: 106.39px;
-margin-bottom: 166px;
+margin-bottom: 160px;
 margin-top: 92px;
 
 background: #F9F2F7;
@@ -78,7 +78,7 @@ img{
     font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 13px;
 line-height: 145.5%;
 margin-bottom: 26px;
 
@@ -110,7 +110,7 @@ color: #303030;
     .actual-body button{
         padding: 10px 20px ;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
     }
 
 }
